@@ -1,0 +1,37 @@
+Source: node-hooker
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Matthew Pideil <matthewp_debian@teledetection.fr>
+Build-Depends: debhelper-compat (= 12)
+ , uglifyjs | yui-compressor
+ , pkg-js-tools (>= 0.9.20~)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-hooker
+Vcs-Git: https://salsa.debian.org/js-team/node-hooker.git
+Homepage: https://github.com/cowboy/javascript-hooker
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-hooker
+Architecture: all
+Depends: ${misc:Depends}
+ , ${shlibs:Depends}
+ , nodejs
+Description: Useful debugging library for Node.js
+ Node is an event-based server-side JavaScript engine.
+ .
+ Hooker provides 4 functions that include 'hook' and 'unhook', useful
+ for debug object call, as well as an 'override' function to
+ replace the return of a function.
+
+Package: libjs-hooker
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: javascript-common
+Description: Useful javascript debugging library usable in a browser
+ This is the javascript library of hooker Node.js module.
+ .
+ Hooker provides 4 functions that include 'hook' and 'unhook', useful
+ for debug an object call, as well as an 'override' function if you
+ want to replace the return of a function.

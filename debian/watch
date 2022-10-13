@@ -1,0 +1,2 @@
+version=3
+https://github.com/cowboy/javascript-hooker/tags .*/archive/v?(\d[\d\.]+).tar.gz

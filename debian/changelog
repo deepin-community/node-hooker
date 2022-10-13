@@ -1,0 +1,36 @@
+node-hooker (0.2.3-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Matthew Pideil ]
+  * Copyright: rename MIT to Expat
+  * Remove useless Depends of libjs-eventemitter2 : nodejs
+  * Rewrite descriptions
+  * Proper install
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Use secure URI in Homepage field.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers to use salsa repository.
+  * Remove unnecessary get-orig-source-target.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Use pkg-js-tools auto install
+  * Enable upstream test
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 20 Mar 2020 12:35:45 +0100
+
+node-hooker (0.2.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #743162)
+
+ -- Matthew Pideil <matthewp_debian@teledetection.fr>  Sun, 30 Mar 2014 23:16:09 +0000
