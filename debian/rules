@@ -11,7 +11,7 @@ export DH_OPTIONS
 
 
 %:
-	dh $@ --with nodejs
+	dh $@
 
 override_dh_auto_build:
 	dh_auto_build

@@ -1,3 +1,27 @@
+node-hooker (0.2.3+~0.2.31-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + libjs-hooker, node-hooker: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 22 Nov 2022 14:29:39 +0000
+
+node-hooker (0.2.3+~0.2.31-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ lintian-brush ]
+  * Update watch file format version to 4.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Drop nodejs dependency
+  * Embed typescript declarations and repack
+
+ -- Yadd <yadd@debian.org>  Tue, 07 Dec 2021 12:54:58 +0100
+
 node-hooker (0.2.3-2) unstable; urgency=medium
 
   * Team upload

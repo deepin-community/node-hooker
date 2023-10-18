@@ -1,6 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: node-hooker
 Source: https://github.com/cowboy/javascript-hooker
+ https://registry.npmjs.org/@types/hooker
 
 Files: *
 Copyright: 2012 "Cowboy" Ben Alman
@@ -8,6 +9,10 @@ License: Expat
 
 Files: debian/*
 Copyright: 2014 Matthew Pideil <matthewp_debian@teledetection.fr>
+License: Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat

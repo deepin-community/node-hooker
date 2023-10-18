@@ -1,0 +1,25 @@
+{
+    "name": "@types/hooker",
+    "version": "0.2.31",
+    "description": "TypeScript definitions for JavaScript Hooker",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/hooker",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Michael Zabka",
+            "url": "https://github.com/misak113",
+            "githubUsername": "misak113"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/hooker"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "d9124e6bdcc3e03b6fbb7117151e0aad7179b11462e2b74d5a1e930e8234a0dc",
+    "typeScriptVersion": "3.6"
+}

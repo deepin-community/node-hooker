@@ -3,10 +3,10 @@ Section: javascript
 Priority: optional
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
 Uploaders: Matthew Pideil <matthewp_debian@teledetection.fr>
-Build-Depends: debhelper-compat (= 12)
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
  , uglifyjs | yui-compressor
- , pkg-js-tools (>= 0.9.20~)
-Standards-Version: 4.5.0
+Standards-Version: 4.6.0
 Vcs-Browser: https://salsa.debian.org/js-team/node-hooker
 Vcs-Git: https://salsa.debian.org/js-team/node-hooker.git
 Homepage: https://github.com/cowboy/javascript-hooker
@@ -16,8 +16,8 @@ Rules-Requires-Root: no
 Package: node-hooker
 Architecture: all
 Depends: ${misc:Depends}
- , ${shlibs:Depends}
- , nodejs
+Provides: ${nodejs:Provides}
+Multi-Arch: foreign
 Description: Useful debugging library for Node.js
  Node is an event-based server-side JavaScript engine.
  .
@@ -29,6 +29,7 @@ Package: libjs-hooker
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: javascript-common
+Multi-Arch: foreign
 Description: Useful javascript debugging library usable in a browser
  This is the javascript library of hooker Node.js module.
  .

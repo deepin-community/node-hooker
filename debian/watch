@@ -1,2 +1,5 @@
-version=3
-https://github.com/cowboy/javascript-hooker/tags .*/archive/v?(\d[\d\.]+).tar.gz
+version=4
+https://github.com/cowboy/javascript-hooker/tags .*/archive/.*/v?(\d[\d\.]+).tar.gz group
+
+opts="searchmode=plain,component=types-hooker,ctype=nodejs,pgpmode=none,filenamemangle=s/^.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-types-hooker-$1/" \
+ https://registry.npmjs.org/@types/hooker https://registry.npmjs.org/@types/hooker/-/hooker-([\d\.]+)@ARCHIVE_EXT@ group
